@@ -1,0 +1,17 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Card">
+  <main class="h-screen w-screen">
+    <div
+      class="w-[500px] rounded-lg bg-white aspect-square">
+    </div>
+    <Card
+      transition:persist
+      title="Title 1"
+      body="Some random text here oooo ahhhh nice one this is really cool wow keep reading this"
+    />
+  </main>
+</Layout>
